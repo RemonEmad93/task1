@@ -1,0 +1,20 @@
+<html lang="en" dir="ltr">
+    <%- include('./partials/head.ejs')%>
+  <body>
+    <%- include('./partials/nav.ejs')%>
+    <div class="about content">
+
+      
+      <h3>Enter Country name</h3>
+      <form action="/" method="POST">
+          <label for="countryName">name:</label>
+          <input id="countryName" type="text" name="countryName">
+          <button type="submit" >get Details!</button>
+      </form>
+    </div>
+    <%- include('./partials/footer.ejs')%>
+  </body>
+</html>
+
+
+
